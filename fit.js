@@ -49,7 +49,7 @@ var swiper = new Swiper(".blogs-slider", {
   grabCursor: true,
   loop: true,
   autoplay: {
-    delay: 7000,
+    delay: 100000000000,
     disableOnInteraction: false,
   },
   pagination: {
