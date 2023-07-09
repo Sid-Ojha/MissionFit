@@ -451,6 +451,11 @@ section {
   color: var(--red);
 }
 
+#buttum {
+  pointer-events: none;
+}
+
+
 
 
 
