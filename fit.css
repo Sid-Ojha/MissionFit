@@ -754,7 +754,7 @@ select {
   background: var(--red);
 }
 
-.footer .box-container form .email{
+/* .footer .box-container form .email{
   margin-bottom: 1rem;
   width: 100%;
   background: var(--light-bg);
@@ -762,7 +762,7 @@ select {
   font-size: 1.5rem;
   color: var(--white);
   text-transform: none;
-}
+} */
 
 .credit{
  font-size: 2rem;
