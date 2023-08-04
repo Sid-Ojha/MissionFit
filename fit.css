@@ -26,7 +26,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
   gap: 1.5rem;
-
 }
 
 html {
@@ -273,13 +272,13 @@ section {
 
 
 
-.features .box-container {
+.workout .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(0, 32rem));
   gap: 2rem;
 }
 
-.features .box-container .box {
+.workout .box-container .box {
   background: var(--light-bg);
 }
 
@@ -288,17 +287,17 @@ section {
   flex-flow: column-reverse;
 }
 
-.box .image img:hover {
+.workout .box .image img:hover {
   transform: scale(1.1);
 }
 
-.features .box-container .box .image {
+.workout .box-container .box .image {
   height: 25rem;
   width: 100%;
   overflow: hidden;
 }
 
-.features .box-container .box .image img {
+.workout .box-container .box .image img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -388,25 +387,23 @@ section {
   padding: 1rem 0;
 }
 
-
-
-.trainers .box-container {
+.Fitfluencer .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(0, 25rem));
   gap: 1rem;
 }
 
-.trainers .box-container .box {
+.Fitfluencer .box-container .box {
   height: 40rem;
   overflow: hidden;
   position: relative;
 }
 
-.trainers .box-container .box .content:hover {
+.Fitfluencer .box-container .box .content:hover {
   transform: translateY(0);
 }
 
-.trainers .box-container .box .img {
+.Fitfluencer .box-container .box .img {
   height: 100%;
   width: 100%;
 
@@ -414,7 +411,7 @@ section {
   object-position: center center;
 }
 
-.trainers .box-container .box .content {
+.Fitfluencer .box-container .box .content {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -424,18 +421,18 @@ section {
   transform: translateY(6.5rem);
 }
 
-.trainers .box-container .box .content span {
+.Fitfluencer .box-container .box .content span {
   font-size: 1.5rem;
   color: var(--red);
 }
 
-.trainers .box-container .box .content h3 {
+.Fitfluencer .box-container .box .content h3 {
   font-size: 2rem;
   color: var(--white);
   padding-top: .5rem;
 }
 
-.trainers .box-container .box .content .share {
+.Fitfluencer .box-container .box .content .share {
   padding-top: 2rem;
   margin-top: 1.5rem;
   border-top: .1rem solid var(--light-white);
@@ -454,15 +451,6 @@ section {
 #buttum {
   pointer-events: none;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -536,7 +524,7 @@ select {
 }
 
 .banner {
-  background: linear-gradient(rgba(0, 0, 0, .7)), rgba(0, 0, 0, .7) url(images/portrait-beautiful-muscular-sportswoman-flexing-her-muscles-removebg-preview.png)no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, .7)), rgba(0, 0, 0, .7) url(images/portrait-beautiful-muscular-sportswoman-flexing-her-muscles-removebg-.quotes.png)no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -563,29 +551,29 @@ select {
 }
 
 
-.review {
+.quotes {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
 }
 
-.review .information {
+.quotes .information {
   flex: 1 1 35rem;
 }
 
-.review .information span {
+.quotes .information span {
   font-size: 2rem;
   color: var(--red);
 }
 
-.review .information h3 {
+.quotes .information h3 {
   font-size: 3rem;
   color: var(--white);
   padding-top: 1rem;
 }
 
-.review .information p {
+.quotes .information p {
   font-size: 1.5rem;
   line-height: 2;
   color: var(--light-white);
@@ -593,23 +581,23 @@ select {
 }
 
 
-.review-slider {
+.quotes-slider {
   flex: 1 1 60rem;
 
 }
 
-.review-slider .slide {
+.quotes-slider .slide {
   background: linear-gradient(130deg, var(--light-bg) 93%, transparent 90%);
   padding: 2rem 3rem;
 }
 
-.review-slider .slide p {
+.quotes-slider .slide p {
   font-size: 1.5rem;
   line-height: 2;
   color: var(--light-white);
 }
 
-.review-slider .slide .user {
+.quotes-slider .slide .user {
   display: flex;
   align-items: center;
   margin-top: 1.5rem;
@@ -694,6 +682,7 @@ select {
   line-height: 2;
   padding: 1rem 0;
 }
+
 
 .footer .box-container{
   display: grid;
@@ -782,20 +771,6 @@ select {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 991px) {
   html {
     font-size: 55%;
@@ -858,7 +833,7 @@ select {
     }
 
 
-    .features .box-container .box.second {
+    .workout .box-container .box.second {
       flex-flow: column;
     }
   }

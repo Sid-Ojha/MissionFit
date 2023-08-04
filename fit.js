@@ -25,7 +25,7 @@ var swiper = new Swiper(".home-slider", {
 });
 
 
-var swiper = new Swiper(".review-slider", {
+var swiper = new Swiper(".quotes-slider", {
   spaceBetween: 20,
   grabCursor: true,
   loop: true,
@@ -68,27 +68,6 @@ var swiper = new Swiper(".blogs-slider", {
     },
   },
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
